@@ -1,0 +1,164 @@
+/***********General Tag***************/
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 100;
+  color: #fbdcc4;
+  background-color: #43658b;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-weight: lighter;
+  font-size: 5.625rem;
+  color: #0b0f23;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ed6663;
+  font-size: 2.5rem;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffa372;
+}
+
+hr {
+  border-top: dotted 10px #EAF6F6;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
+  width: 60px;
+}
+/***********Class Tags***************/
+.name {
+  position: relative;
+  top: 100px;
+  width: 100%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.program {
+  color: #0b0f23;
+}
+
+.top {
+  height: 45.3125rem;
+  display: block;
+  background-image: url(file:///Users/Home/Desktop/CSS%20-%20My%20Site/images/mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.pro-pic-one {
+ width: 100px;
+ height: 120px;
+ float: left;
+ position: relative;
+ top:110px;
+}
+
+.pro-pic-two {
+position: relative;
+top: 750px;
+float: right;
+height:100px;
+width: 100px;
+}
+
+.profile {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2.3;
+}
+
+.skills {
+  padding-top: 13px;
+}
+
+.skill-row{
+width: 50%;
+margin: 100px auto 100px auto;
+text-align: left;
+line-height: 2.3;
+}
+
+.html-img {
+  width:25%;
+  padding-bottom:1.25rem;
+  float:left;
+  margin-right:30px;
+}
+
+.java-img {
+  width:25%;
+  float:right;
+  margin-left: 30px;
+}
+
+.wordpress-img {
+  width:25%;
+  padding-top: 25px;
+  float:left;
+  margin-right:30px;
+}
+
+.bottom {
+  height: 200px;
+  width: 200px;
+}
+
+.btn {
+  background: #ffa372;
+  background-image: -webkit-linear-gradient(top, #ffa372, #db8e67);
+  background-image: -moz-linear-gradient(top, #ffa372, #db8e67);
+  background-image: -ms-linear-gradient(top, #ffa372, #db8e67);
+  background-image: -o-linear-gradient(top, #ffa372, #db8e67);
+  background-image: linear-gradient(to bottom, #ffa372, #db8e67);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Open Sans Condensed', sans-serif;;
+  color: #43658b;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #ffa372;
+  text-decoration: none;
+}
+
+.contact-me {
+  padding-top: 13px;
+  padding-bottom: 70px;
+}
+
+.footer {
+  height: 90px;
+  background-color: #ed6663;
+  padding-top: 35px;
+}
+
+.footer-link {
+  text-decoration: none;
+  padding: 0 15px 5px 15px;
+  font-weight: normal;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+
+/***********ID Tag***************/
