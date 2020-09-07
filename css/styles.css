@@ -150,16 +150,20 @@ line-height: 2.3;
 }
 
 .footer {
-  height: 90px;
   background-color: #ed6663;
-  padding-top: 35px;
+  padding: 35px 0 5px 0;
 }
 
-.footer-link {
-  text-decoration: none;
-  padding: 0 15px 5px 15px;
-  font-weight: normal;
-  font-family: 'Open Sans Condensed', sans-serif;
+.fab {
+  color: #43658b;
+  font-size: 1.25rem;
+  position:relative;
+  bottom: 20px;
+  padding: 0 .5rem 0 .5rem;
+}
+
+.fab:hover {
+  color:#60748a;
 }
 
 
