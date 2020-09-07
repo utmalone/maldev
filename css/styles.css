@@ -38,9 +38,7 @@ hr {
 }
 /***********Class Tags***************/
 .name {
-  position: relative;
-  top: 10rem;
-  width: 100%;
+
 }
 
 .pro {
@@ -50,12 +48,12 @@ hr {
 .program {
   color: #0b0f23;
   position: relative;
-  top: 6rem;
+  bottom:3rem;
 }
 
 .top {
-  height: 45.3125rem;
-  display: block;
+  padding: 10% 0 40% 0;
+  background-size:auto;
   background-image: url(mountain.png);
   background-size: cover;
   background-repeat: no-repeat;
