@@ -30,16 +30,16 @@ h3 {
 }
 
 hr {
-  border-top: dotted 10px #EAF6F6;
+  border-top: dotted .625rem #EAF6F6;
   border-bottom: none;
   border-right: none;
   border-left: none;
-  width: 60px;
+  width: 3.75rem;
 }
 /***********Class Tags***************/
 .name {
   position: relative;
-  top: 100px;
+  top: 10rem;
   width: 100%;
 }
 
@@ -49,12 +49,14 @@ hr {
 
 .program {
   color: #0b0f23;
+  position: relative;
+  top: 6rem;
 }
 
 .top {
   height: 45.3125rem;
   display: block;
-  background-image: url(file:///Users/Home/Desktop/CSS%20-%20My%20Site/images/mountain.png);
+  background-image: url(mountain.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -62,34 +64,38 @@ hr {
 }
 
 .pro-pic-one {
- width: 100px;
- height: 120px;
+ display:block;
+ background-repeat: no-repeat;
+ background-position: center;
+ background-attachment: fixed;
+ width: 6.25rem;
+ height: 7.5rem;
  float: left;
  position: relative;
- top:110px;
+ top:12.5rem;
 }
 
 .pro-pic-two {
 position: relative;
-top: 750px;
+top: 55.875rem;
 float: right;
-height:100px;
-width: 100px;
+height:6.25rem;
+width: 6.25rem;
 }
 
 .profile {
   width: 50%;
-  margin: 100px auto 100px auto;
+  margin: 6.25rem auto 6.25rem auto;
   line-height: 2.3;
 }
 
 .skills {
-  padding-top: 13px;
+  padding-top: .8125rem;
 }
 
 .skill-row{
 width: 50%;
-margin: 100px auto 100px auto;
+margin: 6.25rem auto 6.25rem auto;
 text-align: left;
 line-height: 2.3;
 }
@@ -104,7 +110,7 @@ line-height: 2.3;
 .java-img {
   width:25%;
   float:right;
-  margin-left: 30px;
+  margin-left: 1.875rem;
 }
 
 .wordpress-img {
@@ -161,4 +167,8 @@ line-height: 2.3;
 
 
 
-/***********ID Tag***************/
+/* navbar */
+
+.navbar {
+  background-color: transparent;
+}
