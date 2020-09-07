@@ -6,12 +6,6 @@ body {
   font-weight: 100;
   color: #fbdcc4;
   background-color: #43658b;
-  display: block;
-  background-image: url(mountain.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 h1 {
@@ -61,6 +55,12 @@ hr {
 
 .top {
   height: 45.3125rem;
+  display: block;
+  background-image: url(mountain.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .pro-pic-one {
