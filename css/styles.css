@@ -6,12 +6,6 @@ body {
   font-weight: 100;
   color: #fbdcc4;
   background-color: #43658b;
-  background-size:auto;
-  background-image: url(mountain.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-attachment: fixed;
 }
 
 h1 {
@@ -59,7 +53,13 @@ hr {
 
 .top {
   padding: 10% 0 40% 0;
+}
 
+.mountain {
+  display:inline-block;
+  width: 100%;
+  position: absolute;
+  right:0;
 }
 
 .pro-pic-one {
