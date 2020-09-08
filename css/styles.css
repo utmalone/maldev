@@ -9,12 +9,12 @@ body {
 }
 
 h1 {
-  margin-top: 0;
+  margin: auto;
   font-family: 'Sacramento', cursive;
   font-weight: lighter;
   color: #0b0f23;
-  font-size: 4.5rem;
-  padding-bottom: 0;
+  font-size: 500%;
+
 }
 
 h2 {
