@@ -93,31 +93,51 @@ hr {
 .skills
 
 .skill-row {
-  width: 77%;
+  width: 100%;
   margin: 10% auto 10% auto;
   text-align: left;
   line-height: 2.3;
 }
 
 .html-img {
-  display: inline;
-  width: 25%;
+  width: 200px;
+  display: block;
+  position: relative;
+  bottom: 50px;
   padding:0 0 0 0;
   float: left;
   margin-right: 1.875rem;
 }
 
-.java-img {
-  width: 25%;
-  float: right;
-  margin-left: 1.875rem;
+.html-paragraph {
+  margin: auto 10% auto 5%;
 }
 
 .wordpress-img {
-  width: 25%;
-  padding-top: 1.5625rem;
+  width: 200px;
+  display: block;
+  position: relative;
+  padding:0 0 0 0;
+  float: right;
+  margin-right: 1.875rem;
+}
+
+.wordpress-paragraph {
+  margin: auto 10% auto 5%;
+}
+
+
+.java-img {
+  width: 200px;
+  display: block;
+  position: relative;
+  padding:0 0 0 0;
   float: left;
   margin-right: 1.875rem;
+}
+
+.java-paragraph {
+  margin: auto 10% auto 5%;
 }
 
 .bottom {
