@@ -38,6 +38,7 @@ h6 {
 }
 
 hr {
+  margin: 20% auto 20% auto;
   border-top: dotted .625rem #EAF6F6;
   border-bottom: none;
   border-right: none;
@@ -89,9 +90,7 @@ hr {
   diplay: inline- block;
 }
 
-.skills {
-  padding-top: .8125rem;
-}
+.skills
 
 .skill-row {
   width: 77%;
@@ -194,7 +193,7 @@ hr {
 
 .selena {
   padding: 20px 0 20px 0;
-  width: 15%;
+  width: 80px;
   border-radius: 100%;
   opacity: 88%
 }
@@ -215,7 +214,7 @@ hr {
 
 .wiley {
   padding: 20px 0 20px 0;
-  width: 15%;
+  width: 80px;
   border-radius: 100%;
   opacity: 80%;
 }
@@ -235,6 +234,18 @@ hr {
 }
 
 #hello {
+  display: block;
+  position: relative;
+  bottom: 9.125rem;
+}
+
+#testimonials {
+  display: block;
+  position: relative;
+  bottom: 9.125rem;
+}
+
+#skills {
   display: block;
   position: relative;
   bottom: 9.125rem;
