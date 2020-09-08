@@ -173,7 +173,7 @@ hr {
 
 /* navbar */
 .navbar {
-  background-color: transparent;
+  background-color: #0b0f23;
 }
 
 .dropdown-menu {
@@ -232,4 +232,10 @@ hr {
   color: #ed6663;
   font-size: 13px;
   opacity: 60%;
+}
+
+#hello {
+  display: block;
+  position: relative;
+  bottom: 13.125rem;
 }
