@@ -58,7 +58,7 @@ hr {
 }
 
 .top {
-  padding-bottom: 35rem;
+  height: 43.75rem;
   background-image: url(mountain.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -66,6 +66,7 @@ hr {
 }
 
 .pro-pic-one {
+  padding-top: 10%;
   width: 15%;
   display: inline;
   float:left;
@@ -83,13 +84,8 @@ hr {
   line-height: 2.3;
 }
 
-.h2-skills {
-  margin-top: 10%;
-}
-
 .profile-row {
   margin: auto 3% auto 3%;
-  text-align: center;
   diplay: inline- block;
 }
 
