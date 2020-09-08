@@ -74,9 +74,10 @@ hr {
 }
 
 .pro-pic-two {
-  position: relative;
-  top: 55.875rem;
-  float: right;
+  display:inline-block;
+  position: absolute;
+  left: 85%;
+  top: 1400px;
   width: 15%;
 }
 
@@ -90,55 +91,40 @@ hr {
   diplay: inline- block;
 }
 
-.skills
-
-.skill-row {
-  width: 100%;
-  margin: 10% auto 10% auto;
+.wordpress {
   text-align: left;
-  line-height: 2.3;
-}
-
-.html-img {
-  width: 200px;
-  display: block;
-  position: relative;
-  bottom: 50px;
-  padding:0 0 0 0;
-  float: left;
-  margin-right: 1.875rem;
-}
-
-.html-paragraph {
-  margin: auto 10% auto 5%;
+  padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .wordpress-img {
-  width: 200px;
-  display: block;
-  position: relative;
-  padding:0 0 0 0;
+  width: 15%;
+  float: left;
+  margin-right: 2%;
+}
+
+.html {
+  text-align: right;
+  padding-bottom: 120px;
+}
+
+.html-img {
+  width: 14%;
   float: right;
-  margin-right: 1.875rem;
+  margin-left: 2%;
 }
 
-.wordpress-paragraph {
-  margin: auto 10% auto 5%;
+.java {
+text-align: left;
+margin-right: 10%;
 }
-
 
 .java-img {
-  width: 200px;
-  display: block;
-  position: relative;
-  padding:0 0 0 0;
-  float: left;
-  margin-right: 1.875rem;
+  width: 14%;
+  float:left;
+  margin-right: 2%;
 }
 
-.java-paragraph {
-  margin: auto 10% auto 5%;
-}
 
 .bottom {
   height: 12.5rem;
