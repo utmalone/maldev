@@ -61,22 +61,22 @@ hr {
 }
 
 .pro-pic-one {
-  width: 6.25rem;
+  width: 15%;
   float: left;
   position: relative;
-  top: 12.5rem;
+  top: 3rem;
 }
 
 .pro-pic-two {
   position: relative;
   top: 55.875rem;
   float: right;
-  width: 6.25rem;
+  width: 15%;
 }
 
 .profile {
-  width: 50%;
-  margin: 6.25rem auto 6.25rem auto;
+  width: 75%;
+  margin: 10% auto 10% auto;
   line-height: 2.3;
 }
 
@@ -85,15 +85,16 @@ hr {
 }
 
 .skill-row {
-  width: 50%;
-  margin: 6.25rem auto 6.25rem auto;
+  width: 77%;
+  margin: 10% auto 10% auto;
   text-align: left;
   line-height: 2.3;
 }
 
 .html-img {
+  display: inline;
   width: 25%;
-  padding-bottom: 1.25rem;
+  padding:0 0 0 0;
   float: left;
   margin-right: 1.875rem;
 }
