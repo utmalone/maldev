@@ -173,6 +173,16 @@ hr {
   background-color: transparent;
 }
 
+.dropdown-menu {
+  background-color: #43658b;
+  text-align: right;
+  border: none;
+}
+
+.nav-link {
+  background-color: transparent;
+}
+
 /* testimonials */
 .testimonials {
   padding: 50px 100px 50px 100px;
