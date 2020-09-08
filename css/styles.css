@@ -59,8 +59,7 @@ hr {
 }
 
 .top {
-  padding-bottom: 70%;
-  display: inline-block;
+  padding-bottom: 35rem;
   background-image: url(mountain.png);
   background-repeat: no-repeat;
   background-position: center;
