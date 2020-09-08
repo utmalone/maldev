@@ -37,10 +37,9 @@ hr {
   padding-bottom: 3.125rem;
   width: 3.75rem;
 }
-/***********Class Tags***************/
-.name {
 
-}
+/***********Class Tags***************/
+.name {}
 
 .pro {
   text-decoration: underline;
@@ -49,36 +48,37 @@ hr {
 .program {
   color: #0b0f23;
   position: relative;
-  bottom:3rem;
+  bottom: 3rem;
 }
 
 .top {
   padding: 10% 0 40% 0;
-  display:inline-block;
+  display: inline-block;
   background-image: url(mountain.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100%;
+  background-attachment: fixed;
 }
 
 .pro-pic-one {
- display:block;
- background-repeat: no-repeat;
- background-position: center;
- background-attachment: fixed;
- width: 6.25rem;
- height: 7.5rem;
- float: left;
- position: relative;
- top:12.5rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 6.25rem;
+  height: 7.5rem;
+  float: left;
+  position: relative;
+  top: 12.5rem;
 }
 
 .pro-pic-two {
-position: relative;
-top: 55.875rem;
-float: right;
-height:6.25rem;
-width: 6.25rem;
+  position: relative;
+  top: 55.875rem;
+  float: right;
+  height: 6.25rem;
+  width: 6.25rem;
 }
 
 .profile {
@@ -91,36 +91,36 @@ width: 6.25rem;
   padding-top: .8125rem;
 }
 
-.skill-row{
-width: 50%;
-margin: 6.25rem auto 6.25rem auto;
-text-align: left;
-line-height: 2.3;
+.skill-row {
+  width: 50%;
+  margin: 6.25rem auto 6.25rem auto;
+  text-align: left;
+  line-height: 2.3;
 }
 
 .html-img {
-  width:25%;
-  padding-bottom:1.25rem;
-  float:left;
-  margin-right:30px;
+  width: 25%;
+  padding-bottom: 1.25rem;
+  float: left;
+  margin-right: 1.875rem;
 }
 
 .java-img {
-  width:25%;
-  float:right;
+  width: 25%;
+  float: right;
   margin-left: 1.875rem;
 }
 
 .wordpress-img {
-  width:25%;
-  padding-top: 25px;
-  float:left;
-  margin-right:30px;
+  width: 25%;
+  padding-top: 1.5625rem;
+  float: left;
+  margin-right: 1.875rem;
 }
 
 .bottom {
-  height: 200px;
-  width: 200px;
+  height: 12.5rem;
+  width: 12.5rem;
 }
 
 .btn {
@@ -133,7 +133,8 @@ line-height: 2.3;
   -webkit-border-radius: 8;
   -moz-border-radius: 8;
   border-radius: 8px;
-  font-family: 'Open Sans Condensed', sans-serif;;
+  font-family: 'Open Sans Condensed', sans-serif;
+  ;
   color: #43658b;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
@@ -158,19 +159,64 @@ line-height: 2.3;
 .fab {
   color: #43658b;
   font-size: 1.25rem;
-  position:relative;
+  position: relative;
   bottom: 20px;
   padding: 0 .5rem 0 .5rem;
 }
 
 .fab:hover {
-  color:#60748a;
+  color: #60748a;
 }
 
-
-
 /* navbar */
-
 .navbar {
   background-color: transparent;
+}
+
+/* testimonials */
+.testimonials {
+  padding: 50px 100px 50px 100px;
+  margin:0;
+}
+
+.selena {
+  padding: 20px 0 20px 0;
+  width: 15%;
+  border-radius: 100%;
+  opacity: 88%
+}
+
+.selena-name {
+  font-family: "Sacramento";
+  font-size: 25px;
+  color: #ed6663;
+}
+
+.selena-job {
+  position: relative;
+  bottom: 10px;
+  color: #ed6663;
+  font-size: 13px;
+  opacity: 60%;
+}
+
+.wiley {
+  padding: 20px 0 20px 0;
+  width: 15%;
+  border-radius: 100%;
+  opacity: 80%;
+}
+
+.wiley-name {
+  font-family: "Sacramento";
+  font-size: 25px;
+  color: #ed6663;
+}
+
+.wiley-job {
+  position: relative;
+  bottom: 10px;
+  color: #ed6663;
+  font-size: 13px;
+  opacity: 60%;
 }
