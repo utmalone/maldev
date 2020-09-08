@@ -12,7 +12,7 @@ h1 {
   margin-top: 0;
   font-family: 'Sacramento', cursive;
   font-weight: lighter;
-  font-size: 5.625rem;
+  font-size: 600%;
   color: #0b0f23;
 }
 
@@ -46,6 +46,7 @@ hr {
 }
 
 .program {
+  font-size: 200%;
   color: #0b0f23;
   position: relative;
   bottom: 3rem;
@@ -62,7 +63,8 @@ hr {
 
 .pro-pic-one {
   width: 15%;
-  float: left;
+  display: inline;
+  float:left;
   position: relative;
   top: 3rem;
 }
@@ -75,9 +77,12 @@ hr {
 }
 
 .profile {
-  width: 75%;
   margin: 10% auto 10% auto;
   line-height: 2.3;
+}
+
+.profile-row {
+  diplay: inline- block;
 }
 
 .skills {
