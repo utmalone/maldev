@@ -42,7 +42,6 @@ hr {
   border-bottom: none;
   border-right: none;
   border-left: none;
-  padding-bottom: 3.125rem;
   width: 3.75rem;
 }
 
@@ -80,8 +79,12 @@ hr {
 }
 
 .profile {
-  margin: 10% auto 10% auto;
+  margin: auto auto 10% auto;
   line-height: 2.3;
+}
+
+.h2-skills {
+  margin-top: 10%;
 }
 
 .profile-row {
